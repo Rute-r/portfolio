@@ -30,7 +30,7 @@ Para visualizar o projeto localmente, siga as instruções abaixo:
    git clone https://github.com/Rute-r/portfolio
    ```
 
-````
+
 2. Abra o projeto no Visual Studio Code:
    ```bash
    code portfolio
