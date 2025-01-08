@@ -7,11 +7,17 @@
     <meta name="author" content="Rute Sousa" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet" />
     <title>Meu Perfil</title>
   </head>
   <body>
     <header>
-      <div id="header_content">
+      <div id="header_content" class="flex">
         <div id="titulo">
           <h1>Rute Sousa</h1>
         </div>
@@ -30,35 +36,37 @@
       </div>
     </header>
     <main>
-      <section id="about">
-        <h2>Sobre a Rute</h2>
-        <div id="conteudo">
-          <img src="./assets/img/user_02.png" alt="Foto do criador desse conteudo" />
+      <section id="about" class="flex_start">
+        <h2>Sobre mim:</h2>
+        <div id="conteudo" class="flex">
+          <img src="./assets/img/user_02.png" alt="Foto do criador desse conteudo" class="img_profile" />
           <article id="sobre_texto">
             <p>
               Olá, meu nome é Rute. Minha jornada começou ainda jovem, quando assistia meu irmão jogar
               videogame na unica TV que tínhamos. Todos os jogos eram em inglês, e movida pela curiosidade,
               comecei a aprender o idioma por conta própria. Essa iniciativa me abriu portas para trabalhar em
               recepção bilíngue, onde desenvolvi habilidades como organização, comunicação, resolução de
-              problemas, trabalho em equipe e proatividade. Durante a pandemia, decidi mudar meu caminho
-              profissional e novamente me inspirei no meu irmão para explorar o universo da
-              programação.Comecei com Frontend e Por diversão, criei um pequeno jogo onde você usa a voz para
-              adivinhar um número aleatório. Isso despertou minha paixão pela área e me levou a buscar mais
-              conhecimento. Foi quando descobri o curso CS50 da Harvard, que me proporcionou uma base sólida
-              em ciência da computação, com linguagens como C e Python. Percebendo que ainda havia mais a
-              aprender, ingressei no bootcamp fullstack da Generation, onde aprofundei meus estudos em backend
-              e banco de dados. Nesse processo, desenvolvi aplicações web como uma conta bancária e uma loja
-              de jogos, utilizando tecnologias como Java, Spring e SQL, entre outras. Minha trajetória como
-              autodidata me trouxe habilidades valiosas, como flexibilidade, gestão de tempo, autodisciplina e
-              autossuficiência, que fazem de mim uma profissional focada e proativa. Acredito que posso ser
-              uma excelente adição à sua equipe.
+              problemas, trabalho em equipe e proatividade.
+            </p>
+            <p>
+              Durante a pandemia, decidi mudar meu caminho profissional e novamente me inspirei no meu irmão
+              para explorar o universo da programação.Comecei com Frontend e Por diversão, criei um pequeno
+              jogo onde você usa a voz para adivinhar um número aleatório. Isso despertou minha paixão pela
+              área e me levou a buscar mais conhecimento. Foi quando descobri o curso CS50 da Harvard, que me
+              proporcionou uma base sólida em ciência da computação, com linguagens como C e Python.
+            </p>
+            <p>
+              Percebendo que ainda havia mais a aprender, ingressei no bootcamp fullstack da Generation, onde
+              aprofundei meus estudos em backend e banco de dados. Nesse processo, desenvolvi aplicações web
+              como uma conta bancária e uma loja de jogos, utilizando tecnologias como Java, Spring e SQL,
+              entre outras.
             </p>
           </article>
         </div>
       </section>
-      <section id="video">
+      <section id="video" class="flex_start">
         <h2>Meu video favorito:</h2>
-        <div id="youtube">
+        <div id="youtube" class="flex">
           <iframe
             width="560"
             height="315"
@@ -71,16 +79,16 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="flex">
       <section id="redes_sociais">
         <a href="https://www.linkedin.com/in/rutesrsousa/" target="_blank">
-          <img src="assets/img/linkedin.svg" alt="Linkedin" />
+          <img src="assets/img/linkedin.svg" alt="Linkedin" class="social_icon" />
         </a>
         <a href="https://github.com/Rute-r" target="_blank">
-          <img src="assets/img/github.svg" alt="GitHub" />
+          <img src="assets/img/github.svg" alt="GitHub" class="social_icon" />
         </a>
         <a href="https://www.instagram.com/wute.srs/" target="_blank">
-          <img src="assets/img/instagram.svg" alt="instagram" />
+          <img src="assets/img/instagram.svg" alt="instagram" class="social_icon" />
         </a>
       </section>
       <h3>Feito com 🧡 por Rute Sousa - 2025</h3>
