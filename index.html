@@ -6,18 +6,21 @@
     <meta name="description" content="Projeto Portfólio" />
     <meta name="author" content="Rute Sousa" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <link rel="icon" type="image/svg" href="./assets/img/cat.svg" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet" />
-    <title>Meu Perfil</title>
+    <title>Home | Rute Sousa</title>
   </head>
   <body>
     <header>
       <div id="header_content" class="flex">
+        <div>
+          <img class="icon" src="assets/img/cat-toy-svgrepo-com.svg" alt="icone de gato preto" />
+        </div>
         <div id="titulo">
           <h1>Rute Sousa</h1>
         </div>
@@ -36,10 +39,13 @@
       </div>
     </header>
     <main>
-      <section id="about" class="flex_start">
+      <section id="about" class="flex">
         <h2>Sobre mim:</h2>
         <div id="conteudo" class="flex">
-          <img src="./assets/img/user_02.png" alt="Foto do criador desse conteudo" class="img_profile" />
+          <div>
+            <img src="./assets/img/user_02.png" alt="Foto do criador desse conteudo" class="minha_foto" />
+          </div>
+
           <article id="sobre_texto">
             <p>
               Olá, meu nome é Rute. Minha jornada começou ainda jovem, quando assistia meu irmão jogar
@@ -64,12 +70,12 @@
           </article>
         </div>
       </section>
-      <section id="video" class="flex_start">
+      <section id="video" class="flex">
         <h2>Meu video favorito:</h2>
         <div id="youtube" class="flex">
           <iframe
-            width="560"
-            height="315"
+            width="660"
+            height="415"
             src="https://www.youtube.com/embed/umDr0mPuyQc?si=0UmaKfNqxtq3STSF"
             title="YouTube video player"
             frameborder="0"
@@ -91,7 +97,9 @@
           <img src="assets/img/instagram.svg" alt="instagram" class="social_icon" />
         </a>
       </section>
-      <h3>Feito com 🧡 por Rute Sousa - 2025</h3>
+      <h3 class="flex">
+        Feito com <img src="assets/img/heart-origami-paper-svgrepo-com.svg" /> por Rute Sousa - 2025
+      </h3>
     </footer>
   </body>
 </html>
